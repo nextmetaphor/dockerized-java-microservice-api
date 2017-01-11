@@ -1,0 +1,6 @@
+[submodule "base-docker-image"]
+	path = base-docker-image
+	url = https://github.com/nextmetaphor/dockerized-alpine-java.git
+[submodule "java-microservice-api"]
+	path = java-microservice-api
+	url = https://github.com/nextmetaphor/java-microservice-api.git
