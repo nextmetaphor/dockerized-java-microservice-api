@@ -1,5 +1,5 @@
 # Dockerized Java Microservice API #
-Demonstrates how to use a bash script to build a simple Java microservice API and then build this into a Docker image. The microservice API is a git submodule referencing [https://github.com/nextmetaphor/java-microservice-api]() in the `java-microservice-api` directory; the base Docker image is a git module referencing [https://github.com/nextmetaphor/dockerized-alpine-java]() in the `base-docker-image` directory. Refer to these repositories for more information around how each is configured. 
+Demonstrates how to use a bash script to build a simple Java microservice API and then build this into a Docker image. The microservice API is a git submodule referencing [https://github.com/nextmetaphor/java-microservice-api](https://github.com/nextmetaphor/java-microservice-api) in the `java-microservice-api` directory; the base Docker image is a git module referencing [https://github.com/nextmetaphor/dockerized-alpine-java](https://github.com/nextmetaphor/dockerized-alpine-java) in the `base-docker-image` directory. Refer to these repositories for more information around how each is configured. 
 
 ***
 
