@@ -48,7 +48,7 @@ The final couple of lines of the eventual output should be similar to the follow
     2017-01-10 17:40:28.209  INFO 14021 --- [           main] io.nextmetaphor.application.Application  : Started Application in 2.457 seconds (JVM running for 2.798)
 
 ## Validation ##
-Follow the steps detailed in the [java-microservice-api README.md](./java-microservice-api/README.md) to validate the API is functioning correctly.
+Follow the steps detailed in the [https://github.com/nextmetaphor/java-microservice-api](https://github.com/nextmetaphor/java-microservice-api) to validate the API is functioning correctly.
 
 ## Licence ##
 Licensed under the Apache License, Version 2.0 (the "License");
