@@ -22,12 +22,12 @@ Once this has completed, verify that the image has been built by running the fol
 
 If the image has built successfully, the output should be something similar to that below...
 
-    nextmetaphor/java-microservice-api   latest              dd65942dc93a        21 hours ago        115 MB
+    nextmetaphor/java-microservice-api                    1.0                 f27a3f2639fd        3 days ago          114 MB
 
 ## Deployment
 The API can be started by executing the following command...
 
-    docker run -d --name=java-microservice-api -p 8080:8080 nextmetaphor/java-microservice-api
+    docker run -d --name=java-microservice-api -p 8080:8080 nextmetaphor/java-microservice-api:1.0
 
 Verify that there is a running container for this image...
 
@@ -35,8 +35,8 @@ Verify that there is a running container for this image...
 
 The output should be something similar to that below...
 
-    CONTAINER ID        IMAGE                                COMMAND                  CREATED             STATUS              PORTS                    NAMES
-    b41a677c8d43        nextmetaphor/java-microservice-api   "/bin/sh -c 'java ..."   21 hours ago        Up About a minute   0.0.0.0:8080->8080/tcp   java-microservice-api
+    CONTAINER ID        IMAGE                                                        COMMAND                  CREATED             STATUS              PORTS                    NAMES
+    b7f9edb4ef1d        nextmetaphor/java-microservice-api:1.0                       "/bin/sh -c 'java ..."   3 days ago          Up 31 seconds       0.0.0.0:8080->8080/tcp   java-microservice-api
 
 Additionally, check the logs of the running container with the command below...
 
